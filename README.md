@@ -5,9 +5,6 @@ An experimental list of functions for a Python library named "Bombardier J3T" ha
 Functions:
 ----------------
 
-Functions:
-----------------
-
 1. jet_statistics(): Returns statistics about current jet
 2. get_jet_stats(id): Gets stats on specific jet by ID
 3. create_new_jet(): Creates new jet object and returns it
