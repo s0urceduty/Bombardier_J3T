@@ -148,22 +148,21 @@ Media_and_Data
 
 Cameras
 ----------------
-100. get_camera_list(jet_id): Returns a list of all cameras installed on the aircraft
-101. get_camera_info(camera_id): Returns specifications and configuration details for a specific camera
-102. enable_camera(camera_id): Activates a camera and begins video capture
-103. disable_camera(camera_id): Deactivates a camera and stops video capture
-104. capture_image(camera_id): Captures a still image from the selected camera
-105. start_video_recording(camera_id): Begins recording video from the camera
-106. stop_video_recording(camera_id): Stops the active video recording session
-107. stream_camera_feed(camera_id): Streams live video feed from the camera
-108. adjust_camera_angle(camera_id, pitch=None, yaw=None, roll=None): Adjusts orientation of a movable camera
-109. zoom_camera(camera_id, level): Adjusts camera zoom level
-110. set_camera_resolution(camera_id, resolution): Sets video resolution for the camera system
-111. apply_camera_filter(camera_id, filter_type): Applies visual filters such as infrared, night vision, or thermal
-112. store_camera_media(camera_id, file): Saves captured photo or video to storage system
-113. retrieve_camera_media(camera_id): Retrieves stored media files for a specific camera
-114. calibrate_camera(camera_id): Performs camera calibration for alignment and optical accuracy
-115. detect_camera_fault(camera_id): Detects operational faults or signal errors in the camera system
+101. get_camera_list(jet_id): Returns a list of all cameras installed on the aircraft
+102. get_camera_info(camera_id): Returns specifications and configuration details for a specific camera
+103. enable_camera(camera_id): Activates a camera and begins video capture
+104. disable_camera(camera_id): Deactivates a camera and stops video capture
+105. capture_image(camera_id): Captures a still image from the selected camera
+106. start_video_recording(camera_id): Begins recording video from the camera
+107. stop_video_recording(camera_id): Stops the active video recording session
+108. stream_camera_feed(camera_id): Streams live video feed from the camera
+109. adjust_camera_angle(camera_id, pitch=None, yaw=None, roll=None): Adjusts orientation of a movable camera
+110. zoom_camera(camera_id, level): Adjusts camera zoom level
+111. set_camera_resolution(camera_id, resolution): Sets video resolution for the camera system
+112. apply_camera_filter(camera_id, filter_type): Applies visual filters such as infrared, night vision, or thermal
+113. store_camera_media(camera_id, file): Saves captured photo or video to storage system
+114. retrieve_camera_media(camera_id): Retrieves stored media files for a specific camera
+115. calibrate_camera(camera_id): Performs camera calibration for alignment and optical accuracy
 
 ----------------
 https://sourceduty.com/
