@@ -83,18 +83,16 @@ Maintenance_and_Inspection
 58. run_system_diagnostics(jet_id): Performs system diagnostics
 59. calculate_lifetime_hours(jet_id): Calculates total aircraft flight hours
 
-
-Passenger_and_Cargo
+Airport_and_Infrastructure
 ----------------
-60. load_passengers(jet_id, passenger_list): Loads passengers
-61. unload_passengers(jet_id): Removes passengers
-62. generate_passenger_manifest(jet_id): Creates passenger manifest
-63. load_cargo(jet_id, cargo_list): Loads cargo
-64. unload_cargo(jet_id): Removes cargo
-65. track_cargo_manifest(jet_id): Tracks cargo inventory
-66. simulate_private_charter(jet_id, passengers): Simulates charter flight
-67. estimate_ticket_price(route): Estimates ticket price
-
+60. register_airport(airport_data): Registers airport in system database
+61. remove_airport(airport_id): Removes airport from system
+62. get_airport_info(airport_id): Returns airport data and specifications
+63. list_airports(): Returns all airports in system
+64. calculate_runway_capacity(airport_id): Calculates maximum runway throughput
+65. track_airport_traffic(airport_id): Tracks aircraft traffic at airport
+66. get_airport_weather(airport_id): Retrieves weather for airport
+67. calculate_gate_availability(airport_id): Calculates available gates
 
 Customization
 ----------------
